@@ -1,0 +1,94 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/movie-theater-set-elements-handdrawn-with-line-festivals-holidays-vector_414360-1837.jpg?w=2000");
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+}
+
+.card-movie{
+    height:210px;
+   
+    
+}
+
+.card-movie-fav{
+    height:160px;
+   
+    
+}
+
+.btn-detalle{
+    color:red;
+}
+
+/* .card-detail{
+    margin-bottom:20px;
+    background-color:blue;
+} */
+
+.favourite-btn{
+    width: 30px;
+    height:30px;
+    background-color: #f2f2f2;
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border:none;
+    margin-top:55px;
+    margin-left:270px;
+
+    }
+
+    .fav-btn-mar{
+        margin-top:23px;
+        margin-left:270px;
+
+    }
+
+    
+    .footer{
+        color:white;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-left:auto;
+        margin-right:auto;
+        gap:10px;
+        padding:5px;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        background-color:black;
+        height:6%;
+    }
+
+    .footer a{
+        text-decoration: none;
+        color:white;
+       
+        
+    }
+
+    li {
+        list-style-type:none;
+
+    }
+
+    .emoji-movie{
+        font-size:30px;
+        background-color:white;
+        border-radius:5px;
+        margin-left:0;
+        margin-right:10px;
+        
+    }
+
+.lg-div{
+    /* background-color:#950000; */
+    background-color:white;
+    border: double 8px black;
+    width:30%;
+    
+}
