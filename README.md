@@ -4,10 +4,6 @@ This project was developed during the skill-up course in the Alkemy platform. In
 
 To access the web page, the credentials used are "challenge@alkemy.org" with the password "react".
 
-The app is available at https://lavilladaa.github.io/movies-web/
-
-
-
 ## App screen :pager:
 
 ![Algorithm schema](./src/screenApp.PNG)
