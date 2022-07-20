@@ -36,7 +36,7 @@ function Listado(props) {
                 {moviesList.map((oneMovie, index) => (
 
 
-                    <div className='col-3' key={oneMovie.id}>
+                    <div className='col-3 ' key={oneMovie.id}>
                         <button
                             className='favourite-btn'
                             onClick={props.funFav}
@@ -48,7 +48,7 @@ function Listado(props) {
 
                         <>
 
-                            <img src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${oneMovie.poster_path}`} className="card-img-top mt-5" alt="..." />
+                            <img src={`https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${oneMovie.poster_path}`} className="card-img-top mt-3 img-list" alt="..." />
 
 
                             <div className="card">

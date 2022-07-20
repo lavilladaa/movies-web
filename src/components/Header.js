@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Buscador from './Buscador'
 
 function Header(props) {
+    let token = sessionStorage.getItem('token');
     return (
         <header>
             <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
@@ -25,7 +26,7 @@ function Header(props) {
                             </li>
                             <li className='nav-item d-flex align-items-center'>
                                 <span className='text-white-50'>
-                                    {props.favorites.length > 0 &&
+                                    {(props.favorites.length > 0 && token) &&
                                         <> ({props.favorites.length})</>
                                     }
                                 </span>

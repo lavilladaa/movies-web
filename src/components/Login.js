@@ -41,7 +41,7 @@ function Login() {
                 navigate('/Listado')
 
             })
-            .catch(Swal.fire("error con la URL"))
+
     }
     let token = sessionStorage.getItem('token');
     return (
