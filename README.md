@@ -6,8 +6,6 @@ The app is available at https://lavilladaa.github.io/movies-web/
 
 ## App screen :pager:
 
-## App screen :pager:
-
 ![Algorithm schema](./src/screenApp.PNG)
 
 ![Algorithm schema](./src/screenAppHome.PNG)
